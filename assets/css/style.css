@@ -4,83 +4,86 @@ body {
 	font-family: 'Righteous', sans-serif;
 }
 
-
-
-header, p {
-    padding: 20px;
-    text-align: center
-    
+header,
+p {
+	padding: 20px;
+	text-align: center
 }
 
-.menu{
-    float: right;
-    margin-right: 220px;
-    word-spacing: 25px;
-    margin-top: 30px;
-    font-weight: bold;
+footer {
+	clear: both;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 350px;
 }
 
-.right{
-    display: inline;
+.menu {
+	
+	padding: 20px;
+	margin-right: 20px;
+	word-spacing: 25px;
+	margin-top: 10px;
+	font-weight: bold;
 }
 
-a{
-    text-decoration: none;
+.right {
+	display: inline;
 }
 
-.v1, .v2{
-    position: relative;
-    border-left: solid 1px #e6e6e6;
-    height: 8px;
-    display: inline;
-    word-spacing: 25px;
-    right: 15px;
+a {
+	text-decoration: none;
 }
 
+.v1,
+.v2 {
+	position: relative;
+	border-left: solid 1px #e6e6e6;
+	height: 8px;
+	display: inline;
+	word-spacing: 25px;
+	right: 15px;
+}
 
-#centerMessage{
-    display: block;
-    /*margin-left: auto;
+#centerMessage {
+	display: block;
+	/*margin-left: auto;
     margin-right: auto;*/
-    margin: auto;
-    width: 300px;   
-
+	margin: auto;
+	width: 300px;
 }
 
-#userMessage{
-
-    border-radius: 25px;
-    border: 2px solid white;
-    padding: 20px; 
-    width: 100%;
-    height:100%;
-    text-align: center; 
+#userMessage {
+	border-radius: 25px;
+	border: 2px solid white;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
 }
 
-.searchLink{ 
-    color: green; 
-    background-color: transparent; 
-    text-decoration: none;
+.searchLink {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
 }
 
 .searchLink: visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
 }
 
 .searchLink:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
 }
 
 .searchLink:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
 }
-
 
 .splash {
 	/* Width and height of splash screen */
@@ -91,14 +94,14 @@ a{
 	z-index: -1;
 }
 
-.splash > .image-container {
+.splash>.image-container {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	animation: fadeInOut 5s infinite;
 }
 
-.splash > .overlay {
+.splash>.overlay {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -113,7 +116,6 @@ a{
 	/* Note: Aspect ratio is preserved because height is auto by default */
 	width: 100%;
 	height: 0;
-
 	/* Swap out image; each gets 5s */
 	animation: imageSwap 50s infinite;
 }
@@ -121,27 +123,35 @@ a{
 .splash img:nth-child(2) {
 	animation-delay: 5s;
 }
+
 .splash img:nth-child(3) {
 	animation-delay: 10s;
 }
+
 .splash img:nth-child(4) {
 	animation-delay: 15s;
 }
+
 .splash img:nth-child(5) {
 	animation-delay: 20s;
 }
+
 .splash img:nth-child(6) {
 	animation-delay: 25s;
 }
+
 .splash img:nth-child(7) {
 	animation-delay: 30s;
 }
+
 .splash img:nth-child(8) {
 	animation-delay: 35s;
 }
+
 .splash img:nth-child(9) {
 	animation-delay: 40s;
 }
+
 .splash img:nth-child(10) {
 	animation-delay: 45s;
 }
@@ -177,29 +187,6 @@ a{
 		height: 0;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 #carousel .carousel-img {
