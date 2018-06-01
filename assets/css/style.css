@@ -10,11 +10,17 @@ p {
 	text-align: center
 }
 
+.Bgm {
+	border-radius: 1px;
+	opacity: 0.1;
+
+}
+
 footer {
 	clear: both;
 	text-align: center;
 	font-size: 12px;
-	padding-top: 350px;
+	padding-top: 250px;
 }
 
 .menu {
