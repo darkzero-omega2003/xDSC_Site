@@ -16,6 +16,11 @@ p {
 
 }
 
+.dzo_logo {
+	width: 25px;
+	height: 25px;
+}
+
 footer {
 	clear: both;
 	text-align: center;

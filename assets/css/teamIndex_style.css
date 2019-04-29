@@ -1,6 +1,11 @@
 body {
-    background-image: url('../images/wallpaper/redtechno_1.jpg');
-    font-family: 'Righteous', sans-serif;
+	background-image: url('../images/wallpaper/red_honeycomb_wallpaper.jpg');
+	font-family: 'Righteous', sans-serif;
+}
+
+.dzo_logo {
+	width: 25px;
+	height: 25px;
 }
 
 footer {
@@ -8,10 +13,11 @@ footer {
 	text-align: center;
 	font-size: 12px;
 	padding-top: 350px;
+	color: red;
 }
 
 .menu {
-	
+
 	padding: 20px;
 	margin-right: 20px;
 	word-spacing: 25px;
@@ -66,23 +72,23 @@ footer {
 /*menu bar end*/
 
 .wrapper {
-    position: relative;
-    overflow: hidden;
-    width: 200px;
-    height: 200px; 
-    border: 1px solid black;
+	position: relative;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
 }
 
 #slide {
-    position: absolute;
-    left: -200px;
-    width: 200px;
-    height: 200px;
-    background: blue;
-    transition: 1s;
+	position: absolute;
+	left: -200px;
+	width: 200px;
+	height: 200px;
+	background: blue;
+	transition: 1s;
 }
 
 .wrapper:hover #slide {
-    transition: .1s;
-    left: 0;
+	transition: .1s;
+	left: 0;
 }
